@@ -36,8 +36,8 @@ https://github.com/qbittorrent/qBittorrent/issues
 
 2. Edit Docker environment file
 
-    If you are not using Docker Compose you can skip editing the environment file.
-    However the variables presented below is crucial in later steps, make sure you understand them.
+    If you are planning to use Docker Compose you should open and edit the environment file. Otherwise you can skip this step.
+    However the variables presented below is crucial in later steps, so make sure you understand them.
 
     Find and open the `.env` file in the repository you cloned (or the .zip archive you downloaded). \
     There are a few variables that you must take care of before you can run the image. \
@@ -68,7 +68,7 @@ https://github.com/qbittorrent/qBittorrent/issues
       Full path to a folder on your host machine which will store the files downloaded by qBittorrent.
       Using relative path won't work.
 
-3. Running the image
+4. Running the image
 
     * If using Docker (not Docker Compose), edit the variables and run:
       ```shell
@@ -130,7 +130,7 @@ https://github.com/qbittorrent/qBittorrent/issues
       After logging in, don't forget to change the password to something else! \
       To change it in WebUI: 'Tools' menu -> 'Options...' -> 'Web UI' tab -> 'Authentication'
 
-4. Stopping container
+5. Stopping container
 
     * When using Docker (not Docker Compose):
       ```shell
